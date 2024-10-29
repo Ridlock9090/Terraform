@@ -6,3 +6,7 @@ resource "aws_instance" "myec2" {
     Name = "ec2-instance"
   }
 }
+
+resource "aws_vpc" "name" {
+  
+}
